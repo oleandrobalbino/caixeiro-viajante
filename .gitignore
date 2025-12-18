@@ -1,0 +1,31 @@
+# --- IDEs e Editores ---
+# Ignorar configurações do VS Code
+.vscode/
+
+# Ignorar configurações do IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignorar configurações do Eclipse (caso use futuramente)
+.classpath
+.project
+.settings/
+
+# --- Arquivos Compilados e Build ---
+# Pastas de saída solicitadas
+bin/
+out/
+
+# Ignorar arquivos de classe soltos (bytecodes)
+*.class
+
+# Ignorar pacotes gerados (opcional, mas recomendado)
+*.jar
+*.war
+
+# --- Sistema Operacional ---
+# Arquivos de metadados do Mac e Windows
+.DS_Store
+Thumbs.db
